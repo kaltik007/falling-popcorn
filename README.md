@@ -11,6 +11,7 @@ Features
   - Player inventory
   - Pick-up Bombs
   - Throwables
+  - Draw trajectory
 
 Effects:
   - Explosion effect
