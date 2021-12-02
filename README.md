@@ -5,6 +5,8 @@ TODO:
 
 Features
   - Dependence of DamageTaken from Explosion center distance
+  - AutoSpawn on Damageable Death
+  - Player
   - Player controller
   - Player inventory
   - Pick-up Bombs
