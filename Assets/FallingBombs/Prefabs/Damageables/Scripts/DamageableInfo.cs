@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Characters
+namespace FallingBombs.Damageables
 {
     [CreateAssetMenu(fileName = "CharacterInfo", menuName = "Falling Bombs/New CharacterInfo", order = 0)]
     public class DamageableInfo : ScriptableObject

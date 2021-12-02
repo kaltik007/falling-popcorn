@@ -1,6 +1,6 @@
 using System;
 
-namespace FallingBombs.Prefabs.Characters
+namespace FallingBombs.Damageables
 {
     public class Damageable : IDamageable
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FallingBombs.Scripts.Explosions
+namespace FallingBombs.Explosions
 {
     public interface IExplosion
     {

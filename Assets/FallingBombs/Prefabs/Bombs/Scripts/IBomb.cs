@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Bombs
+namespace FallingBombs.Bombs
 {
     public interface IBomb
     {

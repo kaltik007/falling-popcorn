@@ -1,9 +1,8 @@
-
 using System;
 using TMPro;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Characters.Views
+namespace FallingBombs.Damageables.Views
 {
     public class DamageableTextMeshProView : DamageableViewBase
     {

@@ -1,11 +1,10 @@
 using System;
 using System.Collections.Generic;
-using FallingBombs.Prefabs.Bombs.Views;
-using FallingBombs.Scripts.Explosions;
+using FallingBombs.Bombs.Views;
 using FallingBombs.Spawnables;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Bombs
+namespace FallingBombs.Bombs
 {
     public class BombBehaviour : SpawnableBase
     {

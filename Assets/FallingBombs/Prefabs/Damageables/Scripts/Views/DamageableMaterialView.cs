@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Characters.Views
+namespace FallingBombs.Damageables.Views
 {
     [RequireComponent(typeof (Renderer))]
     public class DamageableMaterialView : DamageableViewBase

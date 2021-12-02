@@ -1,7 +1,6 @@
-using FallingBombs.Prefabs.Characters;
 using UnityEngine;
 
-namespace FallingBombs.Scripts.Explosions
+namespace FallingBombs.Explosions
 {
     [CreateAssetMenu(fileName = "ExplosionInfo", menuName = "Falling Bombs/New ExplosionInfo", order = 0)]
     public class ExplosionInfo : ScriptableObject

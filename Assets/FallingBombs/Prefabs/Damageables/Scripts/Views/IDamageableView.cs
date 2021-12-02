@@ -1,4 +1,4 @@
-namespace FallingBombs.Prefabs.Characters.Views
+namespace FallingBombs.Damageables.Views
 {
     public interface IDamageableView
     {

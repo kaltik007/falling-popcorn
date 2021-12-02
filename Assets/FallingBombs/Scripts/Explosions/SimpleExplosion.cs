@@ -1,8 +1,7 @@
-using FallingBombs.Prefabs.Characters;
-using FallingBombs.Prefabs.Characters.Views;
+using FallingBombs.Damageables.Views;
 using UnityEngine;
 
-namespace FallingBombs.Scripts.Explosions
+namespace FallingBombs.Explosions
 {
     public class SimpleExplosion : IExplosion
     {

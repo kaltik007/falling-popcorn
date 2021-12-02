@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Characters.Views
+namespace FallingBombs.Damageables.Views
 {
     public class DamageableConsoleView : DamageableViewBase
     {

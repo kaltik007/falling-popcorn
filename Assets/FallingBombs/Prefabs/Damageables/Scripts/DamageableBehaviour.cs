@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using FallingBombs.Prefabs.Characters.Views;
+using FallingBombs.Damageables.Views;
 using FallingBombs.Spawnables;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Characters
+namespace FallingBombs.Damageables
 {
     public class DamageableBehaviour : SpawnableBase
     {

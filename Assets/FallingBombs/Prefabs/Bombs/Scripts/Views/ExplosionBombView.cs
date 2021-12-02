@@ -1,8 +1,8 @@
 using System;
-using FallingBombs.Scripts.Explosions;
+using FallingBombs.Explosions;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Bombs.Views
+namespace FallingBombs.Bombs.Views
 {
     public class ExplosionBombView : BombViewBase
     {

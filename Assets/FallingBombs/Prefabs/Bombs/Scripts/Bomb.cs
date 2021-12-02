@@ -1,8 +1,7 @@
 using System;
-using FallingBombs.Scripts.Explosions;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Bombs
+namespace FallingBombs.Bombs
 {
     public class Bomb : IBomb
     {

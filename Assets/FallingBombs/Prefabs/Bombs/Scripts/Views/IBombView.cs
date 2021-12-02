@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Bombs.Views
+namespace FallingBombs.Bombs.Views
 {
     public interface IBombView
     {

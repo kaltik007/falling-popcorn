@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace FallingBombs.Prefabs.Characters.Views
+namespace FallingBombs.Damageables.Views
 {
     public abstract class DamageableViewBase : MonoBehaviour, IDamageableView
     {

@@ -2,30 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f004a3cf-e4d1-4995-b104-11a4b376ffcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/ISpawnableSelector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SpawnableSelectorBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SpawnableSelectorBase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Bomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Bomb.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/ISpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/ISpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/SpawnerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/SpawnerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/IBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/IBomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/BombViewBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/BombViewBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/ExplosionBombView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/ExplosionBombView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/IBombView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/IBombView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/BlueCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/BlueCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/BlueCharacter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/BlueCharacter.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/CyanCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/CyanCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/CyanCharacter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/CyanCharacter.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/GreenCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/GreenCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/GreenCharacter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/GreenCharacter.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/BlueCharacter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/BlueCharacter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/BlueCharacter.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/BlueCharacter.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/CyanCharacter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/CyanCharacter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/CyanCharacter.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/CyanCharacter.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/GreenCharacter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/GreenCharacter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/GreenCharacter.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/GreenCharacter.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/PurpleCharacter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/PurpleCharacter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/PurpleCharacter.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/PurpleCharacter.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/YellowCharacter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/YellowCharacter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Materials/YellowCharacter.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Materials/YellowCharacter.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/PurpleBossCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/PurpleBossCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/PurpleBossCharacter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/PurpleBossCharacter.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Boss.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Boss.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Boss.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Boss.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Leviathan.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Leviathan.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Leviathan.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Leviathan.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Rugged.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Rugged.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Rugged.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Rugged.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Weak.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Weak.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/ScriptableObjects/CharacterInfo_Weak.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/ScriptableObjects/CharacterInfo_Weak.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Damageable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Damageable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Damageable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Damageable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/DamageableBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/DamageableBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/DamageableInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/DamageableInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/IDamageable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/IDamageable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/IDamageable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/IDamageable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableConsoleView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableConsoleView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableConsoleView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableConsoleView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableMaterialView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableMaterialView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableMaterialView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableMaterialView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableTextMeshProView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableTextMeshProView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableTextMeshProView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableTextMeshProView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableViewBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableViewBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableViewBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/DamageableViewBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/IDamageableView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/IDamageableView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/IDamageableView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/Scripts/Views/IDamageableView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/YellowLeviathanCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/YellowLeviathanCharacter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/YellowLeviathanCharacter.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Damageables/YellowLeviathanCharacter.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/ExplosionInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/ExplosionInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/IExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/IExplosion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/ObjectPools/ObjectPoolContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/ObjectPools/ObjectPoolContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/ISpawnableSelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/MultiSpawnableBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableSelectorBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/MultiSpawnableBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableSelectorBase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/QueueMultiSpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnableSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/QueueMultiSpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnableSelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/RandomMultiSpawnableSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/RandomMultiSpawnableSelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SingleSpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnableSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SingleSpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnableSelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +75,12 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/QueueMultiSpawnable.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnable.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnableSelector.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnable.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs" />
-      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnable.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableBase.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableSelectorBase.cs" />
@@ -57,6 +92,25 @@
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/ObjectPools/ObjectPoolContainer.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/ISpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/SpawnerBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/BombViewBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/IBombView.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/IBomb.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Damageable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/IDamageable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/IDamageableView.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableViewBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableTextMeshProView.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableMaterialView.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/Views/DamageableConsoleView.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/IExplosion.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/ExplosionInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Views/ExplosionBombView.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/Bomb.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21j2roPRwGGyasepcTgbnH13ct2" />
@@ -100,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638440381126</updated>
-      <workItem from="1638441968810" duration="2501000" />
+      <workItem from="1638441968810" duration="3736000" />
     </task>
     <servers />
   </component>
