@@ -8,6 +8,7 @@ Features
   - Player inventory
   - Pick-up Bombs
   - Throwables
+
 Effects:
   - Explosion effect
   - DamageTaken TMPro animation effect  
