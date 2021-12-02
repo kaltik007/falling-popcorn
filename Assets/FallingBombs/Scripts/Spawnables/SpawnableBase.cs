@@ -1,12 +1,15 @@
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 namespace FallingBombs.Spawnables
 {
     public abstract class SpawnableBase : MonoBehaviour, ISpawnable
     {
-        public abstract MonoBehaviour Pick();
-        public abstract List<MonoBehaviour> GetAll();
-        public abstract bool Valid();
+        public virtual void OnEnable()
+        {
+            InitSpawnable();
+        }
+
+        public abstract void InitSpawnable();
     }
 }

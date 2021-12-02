@@ -20,8 +20,8 @@ namespace FallingBombs.Scripts.Explosions
             Collider[] colliders = Physics.OverlapSphere(detonationPoint, _explosionRadius);
             foreach (Collider collider in colliders)
             {
-                var damageableView = collider.GetComponent<DamageableViewBase>();
-                if (damageableView != null)
+                DamageableViewBase damageableView;
+                if (collider.TryGetComponent<DamageableViewBase>(out damageableView))
                 {
                     damageableView.DetectDamage(this, _explosionDamage);
                 }

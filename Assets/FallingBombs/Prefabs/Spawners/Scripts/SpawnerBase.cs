@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using FallingBombs.ObjectPools;
 using FallingBombs.Spawnables;
+using FallingBombs.Spawnables.Selectors;
 using FallingBombs.SpawnZones;
 using FallingBombs.SpawnZones.Selectors;
 using UnityEngine;
-using Random = System.Random;
 
 namespace FallingBombs.Spawners
 {
@@ -16,8 +16,8 @@ namespace FallingBombs.Spawners
     {
         [SerializeField] private SpawnZoneSelectorBase spawnZoneSelector;
         [SerializeField] private ObjectPoolContainer poolContainer;
-        [SerializeField] private SpawnableBase spawnableComponent;
-        private List<MonoBehaviour> _spawnPrefabsList;
+        [SerializeField] private SpawnableSelectorBase spawnableComponent;
+        private List<SpawnableBase> _spawnPrefabsList;
 
         public virtual void Awake()
         {
@@ -43,14 +43,14 @@ namespace FallingBombs.Spawners
             }
         }
 
-        public List<MonoBehaviour> GetAllPrefabs()
+        public List<SpawnableBase> GetAllPrefabs()
         {
             if (spawnableComponent == null)
                 throw new NullReferenceException($"Spawnable reference is missing!");
             return spawnableComponent.GetAll();
         }
 
-        public MonoBehaviour GetSpawnablePrefab()
+        public SpawnableBase GetSpawnablePrefab()
         {
             if (spawnableComponent == null)
                 throw new NullReferenceException($"Spawnable reference is missing!");

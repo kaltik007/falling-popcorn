@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f004a3cf-e4d1-4995-b104-11a4b376ffcf" name="Default Changelist" comment="" />
+    <list default="true" id="f004a3cf-e4d1-4995-b104-11a4b376ffcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/ISpawnableSelector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SpawnableSelectorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SpawnableSelectorBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.falling-popcorn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/ISpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/ISpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/SpawnerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/SpawnerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/ObjectPools/ObjectPoolContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/ObjectPools/ObjectPoolContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/ISpawnableSelector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/MultiSpawnableBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableSelectorBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/MultiSpawnableBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableSelectorBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/QueueMultiSpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnableSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/QueueMultiSpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnableSelector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/RandomMultiSpawnableSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/RandomMultiSpawnableSelector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SingleSpawnable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnableSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SingleSpawnable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnableSelector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs.meta" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,27 +35,91 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Explosions/SimpleExplosion.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/QueueMultiSpawnable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/RandomMultiSpawnableSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/ISpawnable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Bombs/Scripts/BombBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Characters/Scripts/DamageableBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnable.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/MultiSpawnableSelectorBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/ISpawnableSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SpawnableSelectorBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/SingleSpawnableSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/QueueMultiSpawnableSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/Spawnables/SpawnableSelectors/RandomMultiSpawnableSelector.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Scripts/ObjectPools/ObjectPoolContainer.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/ISpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/FallingBombs/Prefabs/Spawners/Scripts/SpawnerBase.cs" />
+    </changedPaths>
+  </component>
   <component name="ProjectId" id="21j2roPRwGGyasepcTgbnH13ct2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="f004a3cf-e4d1-4995-b104-11a4b376ffcf" name="Default Changelist" comment="" />
       <created>1638440381126</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638440381126</updated>
+      <workItem from="1638441968810" duration="2501000" />
     </task>
     <servers />
   </component>
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

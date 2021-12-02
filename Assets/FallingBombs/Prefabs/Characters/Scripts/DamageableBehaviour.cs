@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using FallingBombs.Prefabs.Characters.Views;
+using FallingBombs.Spawnables;
 using UnityEngine;
 
 namespace FallingBombs.Prefabs.Characters
 {
-    public class DamageableBehaviour : MonoBehaviour
+    public class DamageableBehaviour : SpawnableBase
     {
         [SerializeField] private DamageableInfo damageableInfo;
         [SerializeField] private List<DamageableViewBase> damageableViews;
@@ -29,9 +30,10 @@ namespace FallingBombs.Prefabs.Characters
             }
         }
 
-        private void OnEnable()
+        public override void OnEnable()
         {
-            InitDamageable();
+            base.OnEnable();
+            
             _damageable.RespawnEvent += OnRespawn;
             _damageable.DamageTakenEvent += OnDamageTaken;
             _damageable.DeathEvent += OnDeath;
@@ -43,6 +45,11 @@ namespace FallingBombs.Prefabs.Characters
             _damageable.RespawnEvent -= OnRespawn;
             _damageable.DamageTakenEvent -= OnDamageTaken;
             _damageable.DeathEvent -= OnDeath;
+        }
+        
+        public override void InitSpawnable()
+        {
+            InitDamageable();
         }
         
         private void InitDamageable()

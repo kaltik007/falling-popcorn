@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using FallingBombs.Spawnables;
 using UnityEngine;
 
 namespace FallingBombs.ObjectPools
@@ -8,27 +9,27 @@ namespace FallingBombs.ObjectPools
     {
         [SerializeField] private int spawnLimit = 1;
         [SerializeField] private bool autoExpand = true;
-        private Dictionary<string, MonoObjectPool<MonoBehaviour>> _poolDictionary;
+        private Dictionary<string, MonoObjectPool<SpawnableBase>> _poolDictionary;
 
         private void Awake()
         {
-            _poolDictionary = new Dictionary<string, MonoObjectPool<MonoBehaviour>>();
+            _poolDictionary = new Dictionary<string, MonoObjectPool<SpawnableBase>>();
         }
 
-        public void InitializePoolDicitionary(List<MonoBehaviour> spawnPrefabsList)
+        public void InitializePoolDicitionary(List<SpawnableBase> spawnPrefabsList)
         {
             foreach (var prefab in spawnPrefabsList)
             {
                 if (!_poolDictionary.ContainsKey(prefab.name))
                 {
-                    var pool = new MonoObjectPool<MonoBehaviour>(prefab, spawnLimit);
+                    var pool = new MonoObjectPool<SpawnableBase>(prefab, spawnLimit);
                     pool.autoExpand = autoExpand;
                     _poolDictionary.Add(prefab.name, pool);
                 }
             }
         }
         
-        public MonoObjectPool<MonoBehaviour> GetConcretePool(string name)
+        public MonoObjectPool<SpawnableBase> GetConcretePool(string name)
         {
             if (!_poolDictionary.ContainsKey(name))
             {

@@ -2,20 +2,22 @@ using System;
 using System.Collections.Generic;
 using FallingBombs.Prefabs.Bombs.Views;
 using FallingBombs.Scripts.Explosions;
+using FallingBombs.Spawnables;
 using UnityEngine;
 
 namespace FallingBombs.Prefabs.Bombs
 {
-    public class BombBehaviour : MonoBehaviour
+    public class BombBehaviour : SpawnableBase
     {
         [SerializeField] private BombInfo bombInfo;
         [SerializeField] private List<BombViewBase> bombViews;
 
         private IBomb _bomb;
         
-        private void OnEnable()
+        public override void OnEnable()
         {
-            InitBomb();
+            base.OnEnable();
+            
             _bomb.RespawnEvent += OnRespawn;
             _bomb.DetonationEvent += OnDetonation;
         }
@@ -24,6 +26,18 @@ namespace FallingBombs.Prefabs.Bombs
         {
             _bomb.RespawnEvent -= OnRespawn;
             _bomb.DetonationEvent -= OnDetonation;
+        }
+
+        public override void InitSpawnable()
+        {
+            InitBomb();
+        }
+        
+        private void InitBomb()
+        {
+            if (bombInfo == null)
+                throw new NullReferenceException($"BombInfo reference is missing!");
+            _bomb = new Bomb(bombInfo);
         }
 
         private void OnRespawn(string id, float bombWeight)
@@ -47,13 +61,6 @@ namespace FallingBombs.Prefabs.Bombs
         {
             _bomb.Detonate(gameObject.transform.position);
             gameObject.SetActive(false);
-        }
-
-        private void InitBomb()
-        {
-            if (bombInfo == null)
-                throw new NullReferenceException($"BombInfo reference is missing!");
-            _bomb = new Bomb(bombInfo);
         }
     }
 }

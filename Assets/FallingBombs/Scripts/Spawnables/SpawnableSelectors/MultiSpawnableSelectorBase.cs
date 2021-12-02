@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FallingBombs.Spawnables
+namespace FallingBombs.Spawnables.Selectors
 {
-    public abstract class MultiSpawnableBase : SpawnableBase
+    public abstract class MultiSpawnableSelectorBase : SpawnableSelectorBase
     {
-        [SerializeField] protected List<MonoBehaviour> spawnablePrefabs;
+        [SerializeField] protected List<SpawnableBase> spawnablePrefabs;
 
         public override bool Valid()
         {
@@ -22,7 +22,7 @@ namespace FallingBombs.Spawnables
             return isValid;
         }
 
-        public override List<MonoBehaviour> GetAll()
+        public override List<SpawnableBase> GetAll()
         {
             if (Valid())
             {

@@ -2,18 +2,18 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FallingBombs.Spawnables
+namespace FallingBombs.Spawnables.Selectors
 {
-    public class SingleSpawnable : SpawnableBase
+    public class SingleSpawnableSelector : SpawnableSelectorBase
     {
-        [SerializeField] private MonoBehaviour spawnablePrefab;
+        [SerializeField] private SpawnableBase spawnablePrefab;
 
         public void Awake()
         {
             if (!Valid())
                 throw new NullReferenceException("Nothing to spawn!");
         }
-        public override MonoBehaviour Pick()
+        public override SpawnableBase Pick()
         {
             if (Valid())
             {
@@ -25,11 +25,11 @@ namespace FallingBombs.Spawnables
             }
         }
 
-        public override List<MonoBehaviour> GetAll()
+        public override List<SpawnableBase> GetAll()
         {
             if (Valid())
             {
-                List<MonoBehaviour> result = new List<MonoBehaviour>(){Pick()};
+                List<SpawnableBase> result = new List<SpawnableBase>(){Pick()};
                 return result;
             }
             else

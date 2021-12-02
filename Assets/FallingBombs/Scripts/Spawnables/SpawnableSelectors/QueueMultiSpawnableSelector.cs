@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FallingBombs.Spawnables
+namespace FallingBombs.Spawnables.Selectors
 {
-    public class QueueMultiSpawnable : MultiSpawnableBase
+    public class QueueMultiSpawnableSelector : MultiSpawnableSelectorBase
     {
-        private Queue<MonoBehaviour> _prefabsQueue;
+        private Queue<SpawnableBase> _prefabsQueue;
 
         private void Awake()
         { 
@@ -18,17 +18,17 @@ namespace FallingBombs.Spawnables
             }
         }
 
-        public override MonoBehaviour Pick()
+        public override SpawnableBase Pick()
         {
             return PickQueuedPrefab();
         }
 
         private void ConvertPrefabsListToQueue()
         {
-            _prefabsQueue = new Queue<MonoBehaviour>(spawnablePrefabs);
+            _prefabsQueue = new Queue<SpawnableBase>(spawnablePrefabs);
         }
 
-        private MonoBehaviour PickQueuedPrefab()
+        private SpawnableBase PickQueuedPrefab()
         {
             var dequeuedPrefab = _prefabsQueue.Dequeue();
             _prefabsQueue.Enqueue(dequeuedPrefab);

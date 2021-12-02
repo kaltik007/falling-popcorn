@@ -2,9 +2,9 @@ using System;
 using UnityEngine;
 using Random = System.Random;
 
-namespace FallingBombs.Spawnables
+namespace FallingBombs.Spawnables.Selectors
 {
-    public class RandomMultiSpawnable : MultiSpawnableBase
+    public class RandomMultiSpawnableSelector : MultiSpawnableSelectorBase
     {
         private Random _randomizer;
         private void Awake()
@@ -16,12 +16,12 @@ namespace FallingBombs.Spawnables
             }
         }
         
-        public override MonoBehaviour Pick()
+        public override SpawnableBase Pick()
         {
             return GetRandomPrefab();
         }
 
-        private MonoBehaviour GetRandomPrefab()
+        private SpawnableBase GetRandomPrefab()
         {
             int randomInt = _randomizer.Next(spawnablePrefabs.Count);
             return spawnablePrefabs[randomInt];
