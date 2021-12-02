@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.falling-bombs.iml
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\vkaltik\Documents\STUDY_projects\falling-bombs\falling-bombs\.idea\.idea.falling-bombs\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
